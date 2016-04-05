@@ -1,0 +1,18 @@
+{
+    "name": "daulat/hello",
+    "description": "hello world",
+    "authors": [
+        {
+            "name": "daulat",
+            "email": "djwadh910@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    }
+}
